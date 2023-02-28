@@ -4,6 +4,7 @@ import { Container } from './App.styled';
 import { ContactForm } from 'components/ContactForm';
 import { Filter } from 'components/Filter';
 import { ContactList } from 'components/ContactList';
+// import { testContacts } from 'data';
 
 class App extends Component {
   state = {
@@ -19,6 +20,7 @@ class App extends Component {
     } else {
       this.setState({
         contacts: [],
+        // contacts: testContacts,
       });
     }
   }
